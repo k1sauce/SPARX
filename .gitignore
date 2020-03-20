@@ -2,3 +2,4 @@
 __pycache__
 SPaRX/*
 .idea
+.ipynb_checkpoints/*

@@ -52,7 +52,7 @@ jupyter notebook sparxv1.ipynb
 
 Below steps documents how the data was imported into postgresql
 
-After initializing a postgresql database (pdsas) tables 
+After initializing a postgresql database (pdsas), tables 
 for each data set were created by running.
 ```bash
 python maketables.py

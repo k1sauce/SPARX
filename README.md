@@ -8,7 +8,7 @@ PostgreSQL database named "pdsas".
 The code in the jupyter notebook requires a connection to the pdsas database,
 hosted at localhost. To set up the pdsas database on OSX you can do the following:
 
-To install postgres on mac use homebrew.
+To install postgres on mac use homebrew
 ```
 brew install postgresql
 ```

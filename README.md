@@ -29,6 +29,7 @@ import 'pdsas.pgsql' to postgres with the following command.
 You should have the postgres background service running. 
 
 <user> is the Owner of the pdsas table.
+
 ```
 psql -U <user> pdsas < pdsas.pgsql
 ```

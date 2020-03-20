@@ -36,11 +36,13 @@ psql -U <user> pdsas < pdsas.pgsql
 
 Edit the database.ini file with your username and password
 
+```
 [postgresql]
 host=localhost
 database=pdsas
 user=<user>
 password=password
+```
 
 Then open the jupyter notebook sparxv1.ipynb
 ```

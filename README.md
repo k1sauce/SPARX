@@ -117,16 +117,6 @@ sm.add_edges_from([
 ])
 _ = plot_structure(sm)
 ```
-
-    /Users/kyle/opt/anaconda3/lib/python3.7/site-packages/networkx/drawing/nx_pylab.py:563: MatplotlibDeprecationWarning: 
-    The iterable function was deprecated in Matplotlib 3.1 and will be removed in 3.3. Use np.iterable instead.
-      if not cb.iterable(width):
-    /Users/kyle/opt/anaconda3/lib/python3.7/site-packages/networkx/drawing/nx_pylab.py:660: MatplotlibDeprecationWarning: 
-    The iterable function was deprecated in Matplotlib 3.1 and will be removed in 3.3. Use np.iterable instead.
-      if cb.iterable(node_size):  # many node sizes
-
-
-
     
 ![png](README_files/README_6_1.png)
     

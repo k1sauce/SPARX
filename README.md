@@ -1,6 +1,6 @@
 This analysis attempts to model the causal relationships between excercise and Parkinsons disease progression metrics from the SPARX clinical trial. The goal of this analysis is to develop a better than naive model from which further improvements can be made. This analysis relies on the causalnex package which contains methods for causal inference with bayesian networks. Although, the MDS UPDRS ME score is used as the endpoint in this analysis, a number of endpoints could be used in its place. 
 
-This notebook requires the dbsas.pgsql databse connection (See README.md).
+This notebook requires the dbsas.pgsql databse connection (See notes.md).
 
 Start by setting up the python environment.
 

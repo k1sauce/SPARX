@@ -35,48 +35,6 @@ from sklearn.model_selection import train_test_split
 
 ```
 
-    Requirement already satisfied: psycopg2 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (2.8.4)
-    Requirement already satisfied: causalnex in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (0.4.3)
-    Requirement already satisfied: pgmpy==0.1.6 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (0.1.6)
-    Requirement already satisfied: pandas==0.24.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (0.24.0)
-    Requirement already satisfied: matplotlib<4.0,>=3.0.3 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (3.1.1)
-    Requirement already satisfied: scipy<1.3,>=1.2.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (1.2.3)
-    Requirement already satisfied: prettytable==0.7.2 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (0.7.2)
-    Requirement already satisfied: numpy<2.0,>=1.14.2 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (1.17.2)
-    Requirement already satisfied: wrapt<1.12,>=1.11.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (1.11.2)
-    Requirement already satisfied: scikit-learn==0.20.2 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (0.20.2)
-    Requirement already satisfied: networkx==2.2 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from causalnex) (2.2)
-    Requirement already satisfied: python-dateutil>=2.5.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from pandas==0.24.0->causalnex) (2.8.0)
-    Requirement already satisfied: pytz>=2011k in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from pandas==0.24.0->causalnex) (2019.3)
-    Requirement already satisfied: cycler>=0.10 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib<4.0,>=3.0.3->causalnex) (0.10.0)
-    Requirement already satisfied: kiwisolver>=1.0.1 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib<4.0,>=3.0.3->causalnex) (1.1.0)
-    Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib<4.0,>=3.0.3->causalnex) (2.4.2)
-    Requirement already satisfied: decorator>=4.3.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from networkx==2.2->causalnex) (4.4.0)
-    Requirement already satisfied: six>=1.5 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas==0.24.0->causalnex) (1.12.0)
-    Requirement already satisfied: setuptools in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib<4.0,>=3.0.3->causalnex) (41.4.0)
-    Requirement already satisfied: pandas in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (0.24.0)
-    Requirement already satisfied: pytz>=2011k in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from pandas) (2019.3)
-    Requirement already satisfied: numpy>=1.12.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from pandas) (1.17.2)
-    Requirement already satisfied: python-dateutil>=2.5.0 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from pandas) (2.8.0)
-    Requirement already satisfied: six>=1.5 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas) (1.12.0)
-    Collecting numpy==1.17
-    [?25l  Downloading https://files.pythonhosted.org/packages/c1/4b/78119133136c20e5ad2e01bf72b0633241defd619939908223cd394a9c32/numpy-1.17.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (15.0MB)
-    [K     |████████████████████████████████| 15.0MB 2.2MB/s eta 0:00:01
-    [?25hInstalling collected packages: numpy
-      Found existing installation: numpy 1.17.2
-        Uninstalling numpy-1.17.2:
-          Successfully uninstalled numpy-1.17.2
-    Successfully installed numpy-1.17.0
-    Requirement already satisfied: matplotlib in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (3.1.1)
-    Requirement already satisfied: cycler>=0.10 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib) (0.10.0)
-    Requirement already satisfied: kiwisolver>=1.0.1 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib) (1.1.0)
-    Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib) (2.4.2)
-    Requirement already satisfied: python-dateutil>=2.1 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib) (2.8.0)
-    Requirement already satisfied: numpy>=1.11 in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from matplotlib) (1.17.0)
-    Requirement already satisfied: six in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from cycler>=0.10->matplotlib) (1.12.0)
-    Requirement already satisfied: setuptools in /Users/kyle/opt/anaconda3/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib) (41.4.0)
-
-
 First, a quick sanity check to make sure endpoints match with reported endpoints.
 
 
